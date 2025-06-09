@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\passion_project_http5226.props" />
+</Project>

@@ -1,0 +1,286 @@
+[
+  {
+    "ContainingType": "passion_project_http5226.Controllers.DramaController",
+    "Method": "Index",
+    "RelativePath": "api/Drama",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.DramaController",
+    "Method": "AddDrama",
+    "RelativePath": "api/Drama/AddDrama",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DramaDto",
+        "Type": "passion_project_http5226.Models.DramaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "passion_project_http5226.Models.Drama",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.DramaController",
+    "Method": "DeleteDrama",
+    "RelativePath": "api/Drama/DeleteDrama/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.DramaController",
+    "Method": "DramaList",
+    "RelativePath": "api/Drama/DramaList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[passion_project_http5226.Models.DramaDto, passion_project_http5226, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.DramaController",
+    "Method": "FindDrama",
+    "RelativePath": "api/Drama/FindDrama/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "passion_project_http5226.Models.DramaDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.DramaController",
+    "Method": "UpdateDrama",
+    "RelativePath": "api/Drama/UpdateDrama/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "DramaDto",
+        "Type": "passion_project_http5226.Models.DramaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.MoodController",
+    "Method": "Index",
+    "RelativePath": "api/Mood",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.MoodController",
+    "Method": "AddMood",
+    "RelativePath": "api/Mood/AddMood",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MoodDto",
+        "Type": "passion_project_http5226.Models.MoodDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "passion_project_http5226.Models.Mood",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.MoodController",
+    "Method": "DeleteMood",
+    "RelativePath": "api/Mood/DeleteMood/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.MoodController",
+    "Method": "FindMood",
+    "RelativePath": "api/Mood/FindMood/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "passion_project_http5226.Models.MoodDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.MoodController",
+    "Method": "MoodList",
+    "RelativePath": "api/Mood/MoodList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[passion_project_http5226.Models.MoodDto, passion_project_http5226, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.MoodController",
+    "Method": "UpdateMood",
+    "RelativePath": "api/Mood/UpdateMood/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "MoodDto",
+        "Type": "passion_project_http5226.Models.MoodDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.QuoteController",
+    "Method": "FindQuote",
+    "RelativePath": "api/Quote/FindQuote/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "passion_project_http5226.Models.QuoteDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "passion_project_http5226.Controllers.QuoteController",
+    "Method": "QuoteList",
+    "RelativePath": "api/Quote/QuoteList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[passion_project_http5226.Models.QuoteDto, passion_project_http5226, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
